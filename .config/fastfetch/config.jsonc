@@ -7,11 +7,14 @@
     "separator": ""
   },
   "logo": {
-    "type": "builtin",
-    "source": "Fedora_small",
+    "type": "file",
+    "source": "~/.config/fastfetch/tokyo-night.txt",
     "color": {
       "1": "#7aa2f7",
-      "2": "#7dcfff"
+      "2": "#7ab5f9",
+      "3": "#7dc4fc",
+      "4": "#7dcfff",
+      "5": "#b4f9f8"
     },
     "padding": {
       "top": 1,
