@@ -69,9 +69,5 @@ fi
 # ---- Input ----
 stty -ixon
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
 # Generated for envman. Do not edit.
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
-
-eval "$(atuin init zsh)"

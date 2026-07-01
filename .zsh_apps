@@ -24,9 +24,6 @@ if command -v atuin &>/dev/null; then
 fi
 
 # ---- Opencode ----
-if [ ! -d "$HOME/.opencode/bin" ]; then
-    curl -fsSL https://opencode.ai/install | bash
-fi
 if [ -d "$HOME/.opencode/bin" ]; then
   export PATH=$HOME/.opencode/bin:$PATH
 fi
@@ -35,6 +32,3 @@ fi
 if [ -f "$HOME/.cargo/env" ]; then
   . "$HOME/.cargo/env"
 fi
-
-# ---- shell integrations ---- !!!! CHECK OUT MORE LATER
-zinit snippet OMZP::git
